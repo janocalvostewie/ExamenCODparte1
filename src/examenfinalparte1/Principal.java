@@ -3,7 +3,8 @@ package examenfinalparte1;
 public class Principal {
 
     /**
-     * Atributo de la clase tipo integer. Se le ha puesto protected para que sólo las clases de este paquete puedan acceder a él
+     * Atributo de la clase tipo integer. Se le ha puesto protected para que
+     * sólo las clases de este paquete puedan acceder a él
      */
     protected int i;
 
@@ -42,5 +43,12 @@ public class Principal {
      */
     public int sumar(int x, int x1) {
         return x + x1;
+    }
+
+    /**
+     * Imprime por pantalla el valor del atributo
+     */
+    public void imprimirValor() {
+        System.out.println("El valor es: " + i);
     }
 }

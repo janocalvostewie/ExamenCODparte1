@@ -5,14 +5,20 @@ import java.io.IOException;
 public class Prin {
 
     public static void main(String[] args) throws IOException {
+        /**
+         * Instanciamos un objeto de la clase Principal
+         */
         Principal obj = new Principal(10, 20);
-        int numero = obj.i;
-        System.out.println("Es: " + numero);
+        obj.imprimirValor();
+        /**
+         * Instanciamos un segundo objeto de la clase Principal
+         */
         Principal obj2 = new Principal(10);
-        int numero2 = obj2.i;
-        System.out.println("Es: " + numero2);
+        obj2.imprimirValor();
+        /**
+         * Instanciamos un tercer objeto de la clase Principal
+         */
         Principal obj3 = new Principal();
-        int numero3 = obj3.i;
-        System.out.println("Es: " + numero3);
+        obj3.imprimirValor();
     }
 }
