@@ -8,11 +8,11 @@ public class Prin {
         Principal obj = new Principal(10, 20);
         int numero = obj.i;
         System.out.println("Es: " + numero);
-        Principal nm = new Principal(10);
-        int m = nm.i;
-        System.out.println("Es: " + m);
-        Principal mn = new Principal();
-        int nn = mn.i;
-        System.out.println("Es: " + nn);
+        Principal obj2 = new Principal(10);
+        int numero2 = obj2.i;
+        System.out.println("Es: " + numero2);
+        Principal obj3 = new Principal();
+        int numero3 = obj3.i;
+        System.out.println("Es: " + numero3);
     }
 }
