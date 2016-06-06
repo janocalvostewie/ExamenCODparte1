@@ -3,10 +3,10 @@ package examenfinalparte1;
 public class Principal {
 
     /**
-     * Atributo de la clase tipo integer. Se le ha puesto protected para que
-     * sólo las clases de este paquete puedan acceder a él
+     * Atributo de la clase tipo integer. Se le ha puesto private para que
+     * no se pueda acceder a él desde fuera de la clase
      */
-    protected int i;
+    private int i;
 
     /**
      * Primer constructor de esta clase. Necesita dos parámetros
